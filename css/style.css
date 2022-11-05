@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    background-image: url(/images/pramod-tiwari-qE2xl1Tc9Js-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   header {
     background-color: #373738;
@@ -18,13 +22,19 @@ body {
   header p {
     display: inline-block;
   }
-  .heroImg {
-    background-image: url(/images/pramod-tiwari-qE2xl1Tc9Js-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 15px;
+  
+  
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
+
+  .mySkills {
+  }
+
+
   h1 {
     color: #005281;
   }
@@ -61,6 +71,8 @@ body {
     transition: all 0.5s;
     cursor: pointer;
   }
+  
+  
   li:hover {
     color: #f14d29;
     -webkit-transition: all 0.5s;
@@ -84,6 +96,3 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: medium;
   }
-  
-
- 
