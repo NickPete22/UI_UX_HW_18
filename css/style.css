@@ -25,6 +25,7 @@ html {
   }
   header ul {
     float:right;
+    padding-right: 100px;
     color: white;
   }
   header li {
@@ -57,17 +58,18 @@ html {
     font-weight: normal;
   }
   h1 {
-    font-size: larger;
-    color: #f14d29;
+    font-size: 46px;
+    color: #373738;
   }
   h2 {
-    font-size:medium;
+    font-size: 24px;
     font-weight: normal;
     color: #f14d29;
   }
 .photo {
     display: flex;
     flex-direction: column;
+    padding-top: 70px;
     padding-left: 10px;
     padding-right: 200px;
   }
@@ -107,11 +109,14 @@ html {
     text-align: center;
 }
 h5 {
-    font-size: larger;
+    font-size: 24px;
     color: #f14d29;
     padding-bottom: 75px;
   }
 h3 {
+    color: white;
+}
+h4 {
     color: white;
 }
   .flexContainer {
@@ -145,7 +150,7 @@ h3 {
     left: 0px;
     bottom: 0px;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #373738;
     padding: 30px;
     color: white;
