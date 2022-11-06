@@ -31,19 +31,40 @@ body {
     display: inline-block;
   }
 
+  .heroImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+}
+.mySkills {
+    width: 100%;
+    padding-top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: medium;
+    text-align: center;
+}
+
   .flexContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    justify-content: space-evenly;
     width: 100%;
   }
   .flexBox {
-      padding: 50px;
+    
   }
 
-  .mySkills {
-      width: 100%;
+
+  .myWork {
+    width: 100%;
+    padding-top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: medium;
+    text-align: center;
   }
 
   .workGrid {
@@ -51,14 +72,16 @@ body {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    justify-content: space-evenly;
     width: 100%;
   }
   .flexCard {
-    padding: 50px;
+
   }
 
   h1 {
-    color: #005281;
+    font-size: larger;
+    color: #f14d29;
   }
   h2 {
     font-size:medium;
@@ -66,12 +89,22 @@ body {
     color: #f14d29;
   }
   .content {
-    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
+    background-color: white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
+  }
+  
+  .photo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 200px;
   }
   button {
     padding: 15px;
