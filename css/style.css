@@ -11,17 +11,17 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-/*body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    background-image: url(/images/bluewave_bkgd70.jpg);
+    background-image: url(./images/bluewave_bkgd70.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }*/
+  }
   /* HEADER */
   header {
     background-color: #373738;
