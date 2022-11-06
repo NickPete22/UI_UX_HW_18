@@ -1,8 +1,12 @@
 
-body, html {
-    height: 100%;
-  }
-body {
+html {
+    background: url(/images/bluewave_bkgd70.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -12,9 +16,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  }*/
+  /* HEADER */
   header {
     background-color: #373738;
+    width: 100%;
     padding: 15px;
   }
   header ul {
@@ -23,14 +29,15 @@ body {
   }
   header li {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 10px 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     font-weight: medium;
   }
   header p {
     display: inline-block;
   }
-
+  /* HERO AREA */
   .heroImg {
     display: flex;
     flex-direction: row;
@@ -38,57 +45,7 @@ body {
     align-content: center;
     width: 100%;
 }
-.mySkills {
-    width: 100%;
-    padding-top: 200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: medium;
-    text-align: center;
-}
-
-  .flexContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  .flexBox {
-    
-  }
-
-
-  .myWork {
-    width: 100%;
-    padding-top: 200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: medium;
-    text-align: center;
-  }
-
-  .workGrid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  .flexCard {
-
-  }
-
-  h1 {
-    font-size: larger;
-    color: #f14d29;
-  }
-  h2 {
-    font-size:medium;
-    font-weight: normal;
-    color: #f14d29;
-  }
-  .content {
+.content {
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -99,11 +56,19 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
   }
-  
-  .photo {
+  h1 {
+    font-size: larger;
+    color: #f14d29;
+  }
+  h2 {
+    font-size:medium;
+    font-weight: normal;
+    color: #f14d29;
+  }
+.photo {
     display: flex;
     flex-direction: column;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 200px;
   }
   button {
@@ -133,11 +98,56 @@ body {
     transition: all 0.5s;
     cursor: pointer;
  } 
-  footer {
+  /* SKILLS AREA */
+.mySkills {
+    width: 100%;
+    padding-top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: medium;
+    text-align: center;
+}
+h5 {
+    font-size: larger;
+    color: #f14d29;
+    padding-bottom: 75px;
+  }
+h3 {
+    color: white;
+}
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .flexBox {
+    width: 33%;
+  }
+  /* WORK AREA */
+  .myWork {
+    width: 100%;
+    padding-top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: medium;
+    text-align: center;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    padding-bottom: 150px;
+  }
+
+
+  /* FOOTER */
+ footer {
     left: 0px;
     bottom: 0px;
+    width: 100%;
+    height: 60px;
     background-color: #373738;
-    padding: 10px;
+    padding: 30px;
     color: white;
   }
   footer ul {
@@ -146,7 +156,8 @@ body {
   }
   footer li {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     font-weight: medium;
   }
